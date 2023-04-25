@@ -1,9 +1,11 @@
 html,
 body,
 #root,
-.App {
+.App,
+.catalog {
   /* text-align: center; */
   height: 100%;
+  margin: 0;
 }
 
 .App {
@@ -30,6 +32,11 @@ button {
   height: 8vh;
   font-size: 2rem;
   box-shadow: 0 0 4px black;
+}
+
+button:active {
+  box-shadow: 0 0 4px black;
+  cursor: default;
 }
 
 button:hover {
@@ -84,6 +91,7 @@ nav {
 }
 
 nav ul {
+  padding-right: 8rem;
   width: 40%;
   display: flex;
   justify-content: space-around;
@@ -107,4 +115,118 @@ a {
   color: seashell;
   font-style: none;
   text-decoration: none;
+}
+
+img {
+  height: 280px;
+
+  border-radius: 10px;
+}
+.catalog {
+  padding-top: 15vh;
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: seashell;
+  max-height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input {
+  width: 2.5vw;
+  height: 3vh;
+  font-size: large;
+  text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+.quantity button {
+  width: 3vw;
+  height: 3.6vh;
+  font-size: 1.5rem;
+}
+.addTo button {
+  width: 15vw;
+  height: 5vh;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px;
+  font-weight: 400;
+  border-bottom: 1px solid salmon;
+}
+
+.item {
+  display: grid;
+  justify-items: center;
+}
+
+.remove {
+  background-color: rgb(226, 77, 77);
+  margin-right: 8px;
+}
+
+.cart {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cart img {
+  height: 200px;
+}
+
+.cartEmpty {
+  background-color: seashell;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartEmpty h1 {
+  color: #282c34;
+  font-size: 4rem;
+  border-bottom: 1px solid seagreen;
+}
+.cartEmpty h2 {
+  color: #544d61;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.green {
+  color: rgb(114, 225, 89);
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  grid-column: span 4;
 }
