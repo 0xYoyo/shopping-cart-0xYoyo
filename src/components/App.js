@@ -1,5 +1,5 @@
-import "./App.css";
-import bgi from "./images/background.jpg";
+import "../App.css";
+import bgi from "../images/background.jpg";
 import { Link } from "react-router-dom";
 
 const App = () => {

@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-
 const AddedItem = ({ item, handleIncrement }) => {
   //const [item, setItem] = useState(item);
-  const { id, pic, name, price, quantity } = item;
+  const { id, pic, name, price } = item;
 
   const increment = () => {
     handleIncrement(id);
