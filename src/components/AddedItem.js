@@ -9,7 +9,6 @@ const AddedItem = ({
 }) => {
   //const [item, setItem] = useState(item);
   const { id, pic, name, price, quantity } = item;
-  console.log(quantity);
   const increment = () => {
     handleIncrement(id);
   };

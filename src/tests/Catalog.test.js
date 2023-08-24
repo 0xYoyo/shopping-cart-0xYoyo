@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import Catalog from "../components/Catalog";
 import { BrowserRouter } from "react-router-dom";
-import itemData from "../helper";
+import itemData from "../utils/helper";
 
 test("renders all images and make sure they are different", () => {
   const dataCopy = [...itemData];

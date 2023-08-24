@@ -1,11 +1,11 @@
-import cardigan from "./images/cardigan.jpg";
-import cargoPants from "./images/cargoPants.jpg";
-import cropTop from "./images/cropTop.jpg";
-import elegantPants from "./images/elegantPants.jpg";
-import hoodie from "./images/hoodie.jpg";
-import jeanJacket from "./images/jeanJacket.jpg";
-import longCoat from "./images/longCoat.jpg";
-import relaxedTee from "./images/relaxedTee.jpg";
+import cardigan from "../images/cardigan.jpg";
+import cargoPants from "../images/cargoPants.jpg";
+import cropTop from "../images/cropTop.jpg";
+import elegantPants from "../images/elegantPants.jpg";
+import hoodie from "../images/hoodie.jpg";
+import jeanJacket from "../images/jeanJacket.jpg";
+import longCoat from "../images/longCoat.jpg";
+import relaxedTee from "../images/relaxedTee.jpg";
 
 const itemData = [
   {

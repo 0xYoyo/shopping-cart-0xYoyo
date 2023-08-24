@@ -9,7 +9,6 @@ const Catalog = ({ state }) => {
     handleInput,
     handleDelete,
   ] = state;
-  console.log(products);
   const catalogItems = products.map((item) => (
     <li key={item.id}>
       <AddedItem

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./components/App";
-import Catalog from "./components/Catalog";
-import Cart from "./components/Cart";
-import Nav from "./components/Nav";
+import App from "../components/App";
+import Catalog from "../components/Catalog";
+import Cart from "../components/Cart";
+import Nav from "../components/Nav";
 import itemData from "./helper";
 
 const RouteSwitch = () => {

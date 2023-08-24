@@ -1,4 +1,4 @@
-import "../App.css";
+import "../styles/App.css";
 import bgi from "../images/background.jpg";
 import { Link } from "react-router-dom";
 
