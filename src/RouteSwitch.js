@@ -101,7 +101,15 @@ const RouteSwitch = () => {
         <Route
           path="/shopping-cart-0xYoyo/catalog"
           element={
-            <Catalog state={[products, handleIncrement, handleDecrement]} />
+            <Catalog
+              state={[
+                products,
+                handleIncrement,
+                handleDecrement,
+                handleInput,
+                handleDelete,
+              ]}
+            />
           }
         />
         <Route

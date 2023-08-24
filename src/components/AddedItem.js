@@ -1,22 +1,42 @@
-const AddedItem = ({ item, handleIncrement }) => {
-  //const [item, setItem] = useState(item);
-  const { id, pic, name, price } = item;
+import Item from "./Item";
 
+const AddedItem = ({
+  item,
+  handleIncrement,
+  handleDecrement,
+  handleInput,
+  handleDelete,
+}) => {
+  //const [item, setItem] = useState(item);
+  const { id, pic, name, price, quantity } = item;
+  console.log(quantity);
   const increment = () => {
     handleIncrement(id);
   };
 
-  return (
-    <div className="item">
-      <img src={pic} alt={name} />
-      <p>
-        {name} - {price}$
-      </p>
-      <div className="addTo">
-        <button onClick={increment}>Add to cart</button>
+  if (quantity > 0) {
+    return (
+      <Item
+        item={item}
+        handleIncrement={handleIncrement}
+        handleDecrement={handleDecrement}
+        handleInput={handleInput}
+        handleDelete={handleDelete}
+      />
+    );
+  } else {
+    return (
+      <div className="item">
+        <img src={pic} alt={name} />
+        <p>
+          {name} - {price}$
+        </p>
+        <div className="addTo">
+          <button onClick={increment}>Add to cart</button>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 };
 
 export default AddedItem;
