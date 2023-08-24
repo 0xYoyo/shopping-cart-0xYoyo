@@ -24,7 +24,7 @@ const RouteSwitch = () => {
         ? total
         : total + product.quantity * product.price;
     }, 0);
-    setTotalPrice(newTotal);
+    setTotalPrice(newTotal.toFixed(2));
   };
 
   const handleIncrement = (id) => {
