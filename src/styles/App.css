@@ -352,3 +352,21 @@ p {
     font-size: 1.2rem;
   }
 }
+
+.Success,
+.Cancel {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 10vh;
+  height: 100vh;
+}
+
+.Success h1,
+.Cancel h1 {
+  color: #544d61;
+  border-bottom: 1px solid #282c34;
+}

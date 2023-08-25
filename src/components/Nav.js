@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 const Nav = ({ state }) => {
   return (
     <nav>
-      <Link to="/shopping-cart-0xYoyo">
+      <Link to="/">
         <h2>Lumière</h2>
       </Link>
       <ul>
-        <Link to="/shopping-cart-0xYoyo">
+        <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="/shopping-cart-0xYoyo/catalog">
+        <Link to="/catalog">
           <li>Catalog</li>
         </Link>
-        <Link to="/shopping-cart-0xYoyo/cart">
+        <Link to="/cart">
           <li>
             Cart (<span style={{ color: "red" }}>{state}</span>)
           </li>

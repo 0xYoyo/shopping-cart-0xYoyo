@@ -1,3 +1,4 @@
+import "@stripe/stripe-js";
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "../components/App";
@@ -5,6 +6,8 @@ import Catalog from "../components/Catalog";
 import Cart from "../components/Cart";
 import Nav from "../components/Nav";
 import itemData from "./helper";
+import Success from "../components/Success";
+import Cancel from "../components/Cancel";
 
 const RouteSwitch = () => {
   const [products, setProducts] = useState(itemData);
@@ -97,9 +100,9 @@ const RouteSwitch = () => {
     <BrowserRouter>
       <Nav state={totalInBag} />
       <Routes>
-        <Route path="/shopping-cart-0xYoyo" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route
-          path="/shopping-cart-0xYoyo/catalog"
+          path="/catalog"
           element={
             <Catalog
               state={[
@@ -113,7 +116,7 @@ const RouteSwitch = () => {
           }
         />
         <Route
-          path="/shopping-cart-0xYoyo/cart"
+          path="/cart"
           element={
             <Cart
               state={[
@@ -128,6 +131,8 @@ const RouteSwitch = () => {
             />
           }
         />
+        <Route path="/success" element={<Success />} />
+        <Route path="/cancel" element={<Cancel />} />
       </Routes>
     </BrowserRouter>
   );

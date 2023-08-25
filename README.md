@@ -4,16 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-The project is a simple yet elegant design of an E-Commerce shopping site.\
+The project is a simple yet elegant and functional design of an E-Commerce shopping site.\
 
 ## Technologies
 
 The app's core technologies are React, Javascript, HTML and CSS.\
-It uses additional external libraries such as Jest for testing and react router for routing.
+It uses additional external libraries such as Stripe API for payment processing, Jest for testing and react router for routing.
 
 ## Key Features
 
-The app contains functions to manipulate the DOM based on changing states which ware shared between different components of the app.\
+The app contains functions to manipulate the DOM based on dynamic states which are shared between different components of the app.\
+The app is integrated with Stripe API to be able to process real-time payments.\
 The app is fully responsive and maintains usage from mobile, tablets, PCs and more.\
 The app is comprised of 3 main pages to provide the core components of an store:
 

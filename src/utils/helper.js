@@ -15,6 +15,7 @@ const itemData = [
     price: 47.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj3A2HMqfmkQaKz7uzhDJai",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const itemData = [
     price: 39.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4SyHMqfmkQaKzZ71Q2QFZ",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const itemData = [
     price: 19.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4V0HMqfmkQaKzNuPBAejl",
   },
   {
     id: 4,
@@ -39,6 +42,7 @@ const itemData = [
     price: 54.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4VUHMqfmkQaKzwlkFxNDQ",
   },
   {
     id: 5,
@@ -47,6 +51,7 @@ const itemData = [
     price: 29.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4VpHMqfmkQaKzoz5usJyz",
   },
   {
     id: 6,
@@ -55,6 +60,7 @@ const itemData = [
     price: 59.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4WDHMqfmkQaKzPkyDyx8v",
   },
   {
     id: 7,
@@ -63,6 +69,7 @@ const itemData = [
     price: 64.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4WZHMqfmkQaKzB5EdGlsC",
   },
   {
     id: 8,
@@ -71,6 +78,7 @@ const itemData = [
     price: 24.99,
     quantity: 0,
     added: false,
+    priceAPI: "price_1Nj4ZJHMqfmkQaKz3yTRc63R",
   },
 ];
 
