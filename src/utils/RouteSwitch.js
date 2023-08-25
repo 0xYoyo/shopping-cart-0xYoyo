@@ -100,7 +100,7 @@ const RouteSwitch = () => {
     <BrowserRouter>
       <Nav state={totalInBag} />
       <Routes>
-        <Route path="/shopping-cart-0xYoyo/" element={<App />} />
+        <Route path="/shopping-cart-0xYoyo" element={<App />} />
         <Route
           path="/shopping-cart-0xYoyo/catalog"
           element={
