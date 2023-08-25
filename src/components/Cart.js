@@ -39,8 +39,8 @@ const Cart = ({ state }) => {
       lineItems: items,
       mode: "payment",
       customerEmail: "test@test.com",
-      successUrl: `${window.location.origin}/success`,
-      cancelUrl: `${window.location.origin}/cancel`,
+      successUrl: `${window.location.origin}/shopping-cart-0xYoyo/success`,
+      cancelUrl: `${window.location.origin}/shopping-cart-0xYoyo/cancel`,
     };
     console.log("redirect to checkout");
     const stripe = await getStripe();
