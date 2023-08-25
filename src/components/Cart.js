@@ -92,7 +92,7 @@ const Cart = ({ state }) => {
           Uh oh... <br /> Your cart is empty
         </h1>
         <h2>Explore products</h2>
-        <Link to="/catalog">
+        <Link to="/shopping-cart-0xYoyo/catalog">
           <button>Products</button>
         </Link>
       </div>

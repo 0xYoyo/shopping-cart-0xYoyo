@@ -6,7 +6,7 @@ function Cancel() {
     <div className="Cancel">
       <h1>Cancelled</h1>
       <h2>Your payment was cancelled.</h2>
-      <Link to="/">
+      <Link to="/shopping-cart-0xYoyo">
         <button>Return to home</button>
       </Link>
     </div>
