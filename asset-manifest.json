@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart-0xYoyo/static/css/main.c2c85f68.css",
-    "main.js": "/shopping-cart-0xYoyo/static/js/main.5dd3bc5f.js",
+    "main.js": "/shopping-cart-0xYoyo/static/js/main.eefdb246.js",
     "static/js/787.d6fe38e8.chunk.js": "/shopping-cart-0xYoyo/static/js/787.d6fe38e8.chunk.js",
     "static/media/relaxedTee.jpg": "/shopping-cart-0xYoyo/static/media/relaxedTee.c1838e232ac9550d13de.jpg",
     "static/media/background.jpg": "/shopping-cart-0xYoyo/static/media/background.22302aa705da6edcd7e0.jpg",
@@ -14,11 +14,11 @@
     "static/media/cargoPants.jpg": "/shopping-cart-0xYoyo/static/media/cargoPants.e4c8fb6621baad2901fc.jpg",
     "index.html": "/shopping-cart-0xYoyo/index.html",
     "main.c2c85f68.css.map": "/shopping-cart-0xYoyo/static/css/main.c2c85f68.css.map",
-    "main.5dd3bc5f.js.map": "/shopping-cart-0xYoyo/static/js/main.5dd3bc5f.js.map",
+    "main.eefdb246.js.map": "/shopping-cart-0xYoyo/static/js/main.eefdb246.js.map",
     "787.d6fe38e8.chunk.js.map": "/shopping-cart-0xYoyo/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2c85f68.css",
-    "static/js/main.5dd3bc5f.js"
+    "static/js/main.eefdb246.js"
   ]
 }
