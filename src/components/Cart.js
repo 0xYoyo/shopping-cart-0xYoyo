@@ -31,6 +31,8 @@ const Cart = ({ state }) => {
       .map((item) => {
         if (item.added) {
           return { price: item.priceAPI, quantity: item.quantity };
+        } else {
+          return undefined;
         }
       })
       .filter((item) => item !== undefined);
@@ -39,8 +41,8 @@ const Cart = ({ state }) => {
       lineItems: items,
       mode: "payment",
       customerEmail: "test@test.com",
-      successUrl: `${window.location.origin}/shopping-cart-0xYoyo/success`,
-      cancelUrl: `${window.location.origin}/shopping-cart-0xYoyo/cancel`,
+      successUrl: `${window.location.origin}/success`,
+      cancelUrl: `${window.location.origin}/cancel`,
     };
     console.log("redirect to checkout");
     const stripe = await getStripe();
@@ -63,6 +65,8 @@ const Cart = ({ state }) => {
           />
         </li>
       );
+    } else {
+      return null;
     }
   });
 
@@ -92,7 +96,7 @@ const Cart = ({ state }) => {
           Uh oh... <br /> Your cart is empty
         </h1>
         <h2>Explore products</h2>
-        <Link to="/shopping-cart-0xYoyo/catalog">
+        <Link to="/catalog">
           <button>Products</button>
         </Link>
       </div>

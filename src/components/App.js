@@ -13,7 +13,7 @@ const App = () => {
       }}
     >
       <h1>Enhance your wardrobe</h1>
-      <Link to="/shopping-cart-0xYoyo/catalog">
+      <Link to="/catalog">
         <button>Shop now</button>
       </Link>
     </div>
