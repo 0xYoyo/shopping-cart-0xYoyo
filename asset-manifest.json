@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/shopping-cart-0xYoyo/static/css/main.0d8aa70e.css",
-    "main.js": "/shopping-cart-0xYoyo/static/js/main.de986394.js",
+    "main.css": "/shopping-cart-0xYoyo/static/css/main.c2c85f68.css",
+    "main.js": "/shopping-cart-0xYoyo/static/js/main.c2da53d4.js",
     "static/js/787.d6fe38e8.chunk.js": "/shopping-cart-0xYoyo/static/js/787.d6fe38e8.chunk.js",
-    "static/media/cardigan.jpg": "/shopping-cart-0xYoyo/static/media/cardigan.6c44918e2ace2248ad92.jpg",
-    "static/media/relaxedTee.jpg": "/shopping-cart-0xYoyo/static/media/relaxedTee.9a652897bd4a43d12012.jpg",
-    "static/media/background.jpg": "/shopping-cart-0xYoyo/static/media/background.4ec5d3da4f7323755209.jpg",
-    "static/media/cropTop.jpg": "/shopping-cart-0xYoyo/static/media/cropTop.d359c4bfe63366ed28bf.jpg",
-    "static/media/longCoat.jpg": "/shopping-cart-0xYoyo/static/media/longCoat.ef3a4da10c91496b2159.jpg",
-    "static/media/cargoPants.jpg": "/shopping-cart-0xYoyo/static/media/cargoPants.4130e555a2bd891619dc.jpg",
-    "static/media/hoodie.jpg": "/shopping-cart-0xYoyo/static/media/hoodie.5f3b61f7af4df42c8e71.jpg",
-    "static/media/elegantPants.jpg": "/shopping-cart-0xYoyo/static/media/elegantPants.c389bac3a2e9af9ce988.jpg",
-    "static/media/jeanJacket.jpg": "/shopping-cart-0xYoyo/static/media/jeanJacket.ba7264afa9692b389b0a.jpg",
+    "static/media/relaxedTee.jpg": "/shopping-cart-0xYoyo/static/media/relaxedTee.c1838e232ac9550d13de.jpg",
+    "static/media/background.jpg": "/shopping-cart-0xYoyo/static/media/background.22302aa705da6edcd7e0.jpg",
+    "static/media/cardigan.jpg": "/shopping-cart-0xYoyo/static/media/cardigan.378e9a93c013f0d97bd2.jpg",
+    "static/media/cropTop.jpg": "/shopping-cart-0xYoyo/static/media/cropTop.fbd574669e44122b338a.jpg",
+    "static/media/hoodie.jpg": "/shopping-cart-0xYoyo/static/media/hoodie.32c740644a51b15128d8.jpg",
+    "static/media/longCoat.jpg": "/shopping-cart-0xYoyo/static/media/longCoat.ec26a9d2bd7538de93df.jpg",
+    "static/media/jeanJacket.jpg": "/shopping-cart-0xYoyo/static/media/jeanJacket.9b34fca2a5414940a8be.jpg",
+    "static/media/elegantPants.jpg": "/shopping-cart-0xYoyo/static/media/elegantPants.b475bb75cb0e154f6293.jpg",
+    "static/media/cargoPants.jpg": "/shopping-cart-0xYoyo/static/media/cargoPants.e4c8fb6621baad2901fc.jpg",
     "index.html": "/shopping-cart-0xYoyo/index.html",
-    "main.0d8aa70e.css.map": "/shopping-cart-0xYoyo/static/css/main.0d8aa70e.css.map",
-    "main.de986394.js.map": "/shopping-cart-0xYoyo/static/js/main.de986394.js.map",
+    "main.c2c85f68.css.map": "/shopping-cart-0xYoyo/static/css/main.c2c85f68.css.map",
+    "main.c2da53d4.js.map": "/shopping-cart-0xYoyo/static/js/main.c2da53d4.js.map",
     "787.d6fe38e8.chunk.js.map": "/shopping-cart-0xYoyo/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d8aa70e.css",
-    "static/js/main.de986394.js"
+    "static/css/main.c2c85f68.css",
+    "static/js/main.c2da53d4.js"
   ]
 }
