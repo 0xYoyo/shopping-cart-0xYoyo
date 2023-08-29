@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-The project is a simple yet elegant and functional design of an E-Commerce shopping site.\
+The project is a simple yet elegant and functional design of an E-Commerce shopping site.
 
 ## Technologies
 
