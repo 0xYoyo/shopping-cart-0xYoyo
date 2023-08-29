@@ -10,6 +10,8 @@ const App = () => {
         backgroundImage: `url(${bgi})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        maxWidth: "3500px",
+        margin: "0 auto",
       }}
     >
       <h1>Enhance your wardrobe</h1>
